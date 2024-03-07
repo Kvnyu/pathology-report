@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@remixicon/react": "^4.2.0",
+    "@tremor/react": "^3.10.0",
+    "autoprefixer": "^10.4.16",
+    "classnames": "^2.5.1",
+    "hl7-standard": "^1.0.4",
+    "js-cookie": "^3.0.5",
+    "luxon": "^3.4.4",
+    "next": "14.0.0",
+    "papaparse": "^5.4.1",
+    "prettier": "^3.0.3",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "server-only": "^0.0.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "5.2.2"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/node": "20.8.9",
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14",
+    "eslint": "8.52.0",
+    "eslint-config-next": "14.0.0",
+    "postcss": "8"
+  }
+}
